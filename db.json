@@ -1,45 +1,534 @@
 {
-	"movies": [
-		{
-			"id": "1",
-			"title": "The Giant Gila Monster",
-			"runtime": "108",
-			"capacity": 30,
-			"showtime": "04:00PM",
-			"tickets_sold": 27,
-			"description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-			"poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-		},
-		{
-			"id": "2",
-			"title": "Manos: The Hands Of Fate",
-			"runtime": "118",
-			"capacity": 50,
-			"showtime": "06:45PM",
-			"tickets_sold": 44,
-			"description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
-			"poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
-		},
-		{
-			"id": "3",
-			"title": "John Wick",
-			"runtime": "62",
-			"capacity": 50,
-			"showtime": "10:30PM",
-			"tickets_sold": 45,
-			"description": "John Wick, a retired hitman, seeks vengeance after the death of his wife, leading to a relentless rampage through the criminal underworld.",
-			"poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
-		},
-		{
-			"id": "4",
-			"title": "Sonic 2",
-			"runtime": "79",
-			"capacity": 60,
-			"showtime": "12:00AM",
-			"tickets_sold": 55,
-			"description": "Sonic and his new ally Tails race against Dr. Robotnik to find a powerful emerald in the Amazon jungle, encountering mysterious creatures along the way.",
-			"poster": "https://musicart.xboxlive.com/7/fedc5a00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"
-		}
-		
-	]
+	"movies": {
+		"action": [
+			{
+				"title": "Mad Max: Fury Road",
+				"director": "George Miller",
+				"releaseYear": 2015,
+				"rating": 8.1,
+				"description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army in a high-speed chase through the desert.",
+				"poster": "https://www.belarte.co.uk/cdn/shop/products/Mad-Max-fury-road.jpg?v=1622311233",
+				"trailer": "https://example.com/mad_max_fury_road_trailer.mp4",
+				"upperslide": "https://images.hdqwalls.com/wallpapers/mad-max-fury-road-2.jpg"
+			},
+			{
+				"title": "Blade Runner 2049",
+				"director": "Denis Villeneuve",
+				"releaseYear": 2017,
+				"rating": 8.0,
+				"description": "Officer K, a new blade runner for the LAPD, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. His discovery leads him on a quest to find Rick Deckard, a former blade runner who's been missing for thirty years.",
+				"poster": "https://m.media-amazon.com/images/I/81E+onwuDOL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/blade_runner_2049_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg"
+			},
+			{
+				"title": "John Wick: Chapter 3 - Parabellum",
+				"director": "Chad Stahelski",
+				"releaseYear": 2019,
+				"rating": 7.5,
+				"description": "Super-assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head, he is the target of hitmen and women everywhere.",
+				"poster": "https://m.media-amazon.com/images/I/91hVXDVuraL.jpg",
+				"trailer": "https://example.com/john_wick_3_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/I/91hVXDVuraL.jpg"
+			},
+			{
+				"title": "Avengers: Infinity War",
+				"directors": "Anthony Russo, Joe Russo",
+				"releaseYear": 2018,
+				"rating": 8.4,
+				"description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+				"poster": "https://i.ebayimg.com/images/g/JI4AAOSwo9Fa8aFK/s-l1200.webp",
+				"trailer": "https://example.com/avengers_infinity_war_trailer.mp4",
+				"upperslide": "https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_mas_hlf_01_2.jpg"
+			},
+			{
+				"title": "Mission: Impossible - Fallout",
+				"director": "Christopher McQuarrie",
+				"releaseYear": 2018,
+				"rating": 7.7,
+				"description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+				"poster": "https://m.media-amazon.com/images/I/91EtQD0P0dL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/mission_impossible_fallout_trailer.mp4",
+				"upperslide": "https://ntvb.tmsimg.com/assets/p13492451_v_h10_ay.jpg?w=1280&h=720"
+			},
+			{
+				"title": "Spider-Man: Homecoming",
+				"director": "Jon Watts",
+				"releaseYear": 2017,
+				"rating": 7.4,
+				"description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+				"poster": "https://amc-theatres-res.cloudinary.com/amc-cdn/production/2/movies/43200/43176/PosterDynamic/31521.jpg",
+				"trailer": "https://example.com/spiderman_homecoming_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/S/pv-target-images/4b4af9d794ab1ba63312fa34fcc8451407b55639de05399f56164f7b9dd10829.jpg"
+			}
+		],
+		"comedy": [
+			{
+				"title": "The Grand Budapest Hotel",
+				"director": "Wes Anderson",
+				"releaseYear": 2014,
+				"rating": 8.1,
+				"description": "A comedic tale set in the fictional Republic of Zubrowka, revolving around the theft of a priceless painting and the struggle for an enormous family fortune.",
+				"poster": "https://m.media-amazon.com/images/I/91E99hNQO7L._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/the_grand_budapest_hotel_trailer.mp4",
+				"upperslide": "https://miro.medium.com/v2/resize:fit:2704/0*1KKHXR25gHP76Qdz."
+			},
+			{
+				"title": "Deadpool",
+				"director": "Tim Miller",
+				"releaseYear": 2016,
+				"rating": 8.0,
+				"description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
+				"poster": "https://m.media-amazon.com/images/I/71c2C0j1ewS._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/deadpool_trailer.mp4",
+				"upperslide": "https://wp.dailybruin.com/images/2016/02/Deadpool-Courtesy-.jpg"
+			},
+			{
+				"title": "The Big Sick",
+				"director": "Michael Showalter",
+				"releaseYear": 2017,
+				"rating": 7.5,
+				"description": "Based on the real-life courtship between Kumail Nanjiani and Emily V. Gordon, this film tells the story of Pakistan-born aspiring comedian Kumail, who connects with grad student Emily after one of his standup sets.",
+				"poster": "https://m.media-amazon.com/images/I/81KDYttw+yL._AC_UF1000,1000_QL80_.jpg",
+				"trailer": "https://example.com/the_big_sick_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/S/pv-target-images/d4c8aad6e099a66ad502cba4f800ee30f9689b3e5d8b662dfa750e332c110c69.jpg"
+			},
+			{
+				"title": "Game Night",
+				"director": "John Francis Daley, Jonathan Goldstein",
+				"releaseYear": 2018,
+				"rating": 7.0,
+				"description": "A group of friends who meet regularly for game nights find themselves entangled in a real-life mystery when the shady brother of one of them is seemingly kidnapped by dangerous gangsters.",
+				"poster": "https://m.media-amazon.com/images/I/91UhcGVmMNL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/game_night_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/S/pv-target-images/db1d9d0893ba84af7902d775b2c6015798467368d6e9447718f2b6a648af9179.jpg"
+			},
+			{
+				"title": "Knives Out",
+				"director": "Rian Johnson",
+				"releaseYear": 2019,
+				"rating": 7.9,
+				"description": "A detective investigates the death of a patriarch of an eccentric, combative family in this modern whodunit.",
+				"poster": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg",
+				"trailer": "https://example.com/knives_out_trailer.mp4",
+				"upperslide": "https://www.whats-on-netflix.com/wp-content/uploads/2022/11/is-knives-out-on-netflix.jpg"
+			}
+		],
+		"drama": [
+			{
+				"title": "La La Land",
+				"director": "Damien Chazelle",
+				"releaseYear": 2016,
+				"rating": 8.0,
+				"description": "In this modern-day musical, an aspiring actress and a jazz musician pursue their dreams in Los Angeles, facing the struggles of success and love.",
+				"poster": "https://i.pinimg.com/564x/55/17/a4/5517a44a75964047d50cbc70967ab83e.jpg",
+				"trailer": "https://example.com/la_la_land_trailer.mp4",
+				"upperslide": "https://variety.com/wp-content/uploads/2016/10/10-la-la-land.jpg"
+			},
+			{
+				"title": "Moonlight",
+				"director": "Barry Jenkins",
+				"releaseYear": 2016,
+				"rating": 7.4,
+				"description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+				"poster": "https://m.media-amazon.com/images/I/91qR2CRN0WL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/moonlight_trailer.mp4",
+				"upperslide": "https://d32qys9a6wm9no.cloudfront.net/images/movies/backdrop/5f/4a55814cb001f745a283b61a7591e7a4_1280x720.jpeg?t=1648698798"
+			},
+			{
+				"title": "Joker",
+				"director": "Todd Phillips",
+				"releaseYear": 2019,
+				"rating": 8.5,
+				"description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society, leading him to embark on a downward spiral of revolution and bloody crime.",
+				"poster": "https://cdn.kinocheck.com/i/dmyydz3tm2.jpg",
+				"trailer": "https://example.com/joker_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/M/MV5BOTU0ZGVmY2MtMTM1OS00YmNlLWE1NGUtMGYyMjI1MjY1NWUzXkEyXkFqcGdeQWFybm8@._V1_.jpg"
+			},
+			{
+				"title": "The Irishman",
+				"director": "Martin Scorsese",
+				"releaseYear": 2019,
+				"rating": 7.9,
+				"description": "An epic saga of organized crime in post-war America told through the eyes of World War II veteran Frank Sheeran, a hustler and hitman who worked alongside some of the most notorious figures of the 20th century.",
+				"poster": "https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_FMjpg_UX1000_.jpg",
+				"trailer": "https://example.com/the_irishman_trailer.mp4",
+				"upperslide": "https://i.ytimg.com/vi/OF-lElIlZM0/maxresdefault.jpg"
+			},
+			{
+				"title": "1917",
+				"director": "Sam Mendes",
+				"releaseYear": 2019,
+				"rating": 8.3,
+				"description": "During World War I, two British soldiers receive seemingly impossible orders to cross into enemy territory and deliver a message that could save 1,600 of their fellow men.",
+				"poster": "https://m.media-amazon.com/images/I/81HBYgqw8lL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/1917_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/S/pv-target-images/d7d54474ae0a3dfb169a05d7e62da568d3a3b2e45ec2bcb39f9007ed004096a1._UR1920,1080_SX720_FMjpg_.jpg"
+			}
+		],
+		"scifi": [
+			{
+				"title": "Arrival",
+				"director": "Denis Villeneuve",
+				"releaseYear": 2016,
+				"rating": 7.9,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_.jpg",
+				"trailer": "https://example.com/arrival_trailer.mp4",
+				"upperslide": "https://miro.medium.com/v2/resize:fit:1400/0*blWAuP0XHvBB2jBw.jpg",
+				"description": "When mysterious spacecraft touch down across the globe, an elite team, led by expert linguist Louise Banks, is brought together to investigate. As mankind teeters on the verge of global war, Banks and the team race against time for answers."
+			},
+			{
+				"title": "Interstellar",
+				"director": "Christopher Nolan",
+				"releaseYear": 2014,
+				"rating": 8.6,
+				"poster": "https://m.media-amazon.com/images/I/91JnoM0khKL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/interstellar_trailer.mp4",
+				"upperslide": "https://images.bauerhosting.com/legacy/empire-tmdb/films/157336/images/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+				"description": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Cooper, a former NASA pilot, must leave his family and embark on a journey beyond our galaxy to find humanity a new home."
+			},
+			{
+				"title": "Inception",
+				"director": "Christopher Nolan",
+				"releaseYear": 2010,
+				"rating": 8.8,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
+				"trailer": "https://example.com/inception_trailer.mp4",
+				"upperslide": "https://ntvb.tmsimg.com/assets/p7825626_v_h10_aa.jpg?w=960&h=540",
+				"description": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state. His rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved."
+			},
+			{
+				"title": "The Matrix",
+				"director": "Lana Wachowski, Lilly Wachowski",
+				"releaseYear": 1999,
+				"rating": 8.7,
+				"poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+				"trailer": "https://example.com/the_matrix_trailer.mp4",
+				"upperslide": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/the-matrix-code-keanu-reeves.jpeg",
+				"description": "In a dystopian future, computer hacker Neo learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+			},
+			{
+				"title": "Minority Report",
+				"director": "Steven Spielberg",
+				"releaseYear": 2002,
+				"rating": 7.6,
+				"poster": "https://m.media-amazon.com/images/M/MV5BYWQ0NjhlMDMtMWJiMi00M2QwLWEzMWMtZGQzZWU3MmVmNzQ1XkEyXkFqcGdeQXVyNTM0NTU5Mg@@._V1_FMjpg_UX1000_.jpg",
+				"trailer": "https://example.com/minority_report_trailer.mp4",
+				"upperslide": "https://wallpaper.forfun.com/fetch/18/18d58fc1a716ecfcf8e833b2848e1a93.jpeg",
+				"description": "In a future where crimes can be predicted and prevented by a specialized police department, Chief John Anderton finds himself accused of a murder he hasn't committed yet."
+			}
+		],
+		"adventure": [
+			{
+				"title": "Wonder Woman",
+				"director": "Patty Jenkins",
+				"releaseYear": 2017,
+				"rating": 7.4,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+				"trailer": "https://example.com/wonder_woman_trailer.mp4",
+				"upperslide": "https://ew.com/thmb/tXEikxKpSrGXTZeS_5FFqAU9JyU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ww-06907r-2000-808777ba0f5c4130be7f53393a3f6a61.jpg",
+				"description": "Diana, princess of the Amazons, discovers her full powers and destiny when she leaves her home to end the devastation of World War I."
+			},
+			{
+				"title": "Jumanji: Welcome to the Jungle",
+				"director": "Jake Kasdan",
+				"releaseYear": 2017,
+				"rating": 6.9,
+				"poster": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+				"trailer": "https://example.com/jumanji_welcome_to_the_jungle_trailer.mp4",
+				"upperslide": "https://miro.medium.com/v2/resize:fit:1000/1*_TduzBrQQkA2VP0mZrdVFA.jpeg",
+				"description": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game."
+			},
+			{
+				"title": "Jurassic World",
+				"director": "Colin Trevorrow",
+				"releaseYear": 2015,
+				"rating": 7.0,
+				"poster": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_FMjpg_UX1000_.jpg",
+				"trailer": "https://example.com/jurassic_world_trailer.mp4",
+				"upperslide": "https://www.hollywoodreporter.com/wp-content/uploads/2018/10/jurassic_world_fallen_kingdom-publicity_still-photofest-h_2018.jpg?w=1296&h=730&crop=1",
+				"description": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur that escapes containment and goes on a killing spree."
+			},
+			{
+				"title": "The Revenant",
+				"director": "Alejandro G. Iñárritu",
+				"releaseYear": 2015,
+				"rating": 8.0,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+				"trailer": "https://example.com/the_revenant_trailer.mp4",
+				"upperslide": "https://m.media-amazon.com/images/S/pv-target-images/bd6ea854e5a479d00acb16c74a97d093221931fc788e724754e5c9293bab8e74._SX1080_FMjpg_.jpg",
+				"description": "A frontiersman on a fur trading expedition fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+			},
+			{
+				"title": "Guardians of the Galaxy",
+				"director": "James Gunn",
+				"releaseYear": 2014,
+				"rating": 8.0,
+				"poster": "https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_.jpg",
+				"trailer": "https://example.com/guardians_of_the_galaxy_trailer.mp4",
+				"upperslide": "https://pixelz.cc/wp-content/uploads/2017/11/guardians-of-the-galaxy-vol-2-movie-uhd-8k-wallpaper.jpg",
+				"description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe."
+			}
+		],
+		"fantasy": [
+			{
+				"title": "Fantastic Beasts and Where to Find Them",
+				"director": "David Yates",
+				"releaseYear": 2016,
+				"rating": 7.3,
+				"poster": "https://m.media-amazon.com/images/I/81ZVwqCfk6L._AC_UF1000,1000_QL80_.jpg",
+				"trailer": "https://example.com/fantastic_beasts_trailer.mp4",
+				"upperslide": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/46/1479138940-fantastic-beasts-and-where-to-find-them-ver4-xxlg.jpg",
+				"description": "In 1926, Newt Scamander arrives in New York with a suitcase full of magical creatures, accidentally unleashing chaos that threatens both the wizarding and non-wizarding worlds."
+			},
+			{
+				"title": "Doctor Strange",
+				"director": "Scott Derrickson",
+				"releaseYear": 2016,
+				"rating": 7.5,
+				"poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
+				"trailer": "https://example.com/doctor_strange_trailer.mp4",
+				"upperslide": "https://www.intofilm.org/intofilm-production/2520/scaledcropped/1170x658/resources/2520/doctor-strange-crop.jpg",
+				"description": "Dr. Stephen Strange, a brilliant neurosurgeon, discovers the hidden world of magic and alternate dimensions after a career-ending car accident. He becomes the Sorcerer Supreme to protect Earth from mystical threats."
+			},
+			{
+				"title": "Alice Through the Looking Glass",
+				"director": "James Bobin",
+				"releaseYear": 2016,
+				"rating": 6.2,
+				"poster": "https://lumiere-a.akamaihd.net/v1/images/p_alicethroughthelookingglass_19873_4762a631.jpeg",
+				"trailer": "https://example.com/alice_through_the_looking_glass_trailer.mp4",
+				"upperslide": "https://wallpapercave.com/wp/wp2544396.jpg",
+				"description": "Alice returns to the whimsical world of Wonderland and travels back in time to save the Mad Hatter."
+			},
+			{
+				"title": "Fantastic Beasts: The Crimes of Grindelwald",
+				"director": "David Yates",
+				"releaseYear": 2018,
+				"rating": 6.6,
+				"poster": "https://m.media-amazon.com/images/I/91HZ1wmug4L._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/fantastic_beasts_crimes_of_grindelwald_trailer.mp4",
+				"upperslide": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9971761/beasts.jpg?quality=90&strip=all&crop=0,3.4351105031733,100,93.129778993653",
+				"description": "Newt Scamander teams up with young Albus Dumbledore to prevent the powerful dark wizard Gellert Grindelwald from raising pure-blood wizards to rule over all non-magical beings."
+			},
+			{
+				"title": "Maleficent: Mistress of Evil",
+				"director": "Joachim Rønning",
+				"releaseYear": 2019,
+				"rating": 6.6,
+				"poster": "https://pics.filmaffinity.com/Maleficent_Mistress_of_Evil-378677710-large.jpg",
+				"trailer": "https://example.com/maleficent_mistress_of_evil_trailer.mp4",
+				"upperslide": "https://lumiere-a.akamaihd.net/v1/images/pp_maleficentmistressofevil_herobanner_mobile_19736_0a0e1915.jpeg?region=0,0,640,480",
+				"description": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces."
+			}
+		],
+		"horror": [
+			{
+				"title": "Get Out",
+				"director": "Jordan Peele",
+				"releaseYear": 2017,
+				"rating": 7.7,
+				"poster": "https://m.media-amazon.com/images/I/91yhYRckRvL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/get_out_trailer.mp4",
+				"upperslide": "https://movies.universalpictures.com/media/get-out-mainstage-mobile-np-58828bfbef790-1.png",
+				"description": "A young African-American man visits his white girlfriend's family estate, where he becomes ensnared in a more sinister real reason for the invitation."
+			},
+			{
+				"title": "A Quiet Place",
+				"director": "John Krasinski",
+				"releaseYear": 2018,
+				"rating": 7.5,
+				"poster": "https://m.media-amazon.com/images/I/A1zV1fxtMEL._AC_UF1000,1000_QL80_.jpg",
+				"trailer": "https://example.com/a_quiet_place_trailer.mp4",
+				"upperslide": "https://images8.alphacoders.com/107/thumb-1920-1070349.jpg",
+				"description": "In a post-apocalyptic world, a family must remain silent to avoid mysterious creatures that hunt by sound."
+			},
+			{
+				"title": "Hereditary",
+				"director": "Ari Aster",
+				"releaseYear": 2018,
+				"rating": 7.3,
+				"poster": "https://m.media-amazon.com/images/I/715S7D8QY2L._AC_UF1000,1000_QL80_.jpg",
+				"trailer": "https://example.com/hereditary_trailer.mp4",
+				"upperslide": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/hereditary-movie-characters.jpg",
+				"description": "After the death of her secretive grandmother, a family begins to unravel cryptic and increasingly terrifying secrets about their ancestry."
+			},
+			{
+				"title": "Us",
+				"director": "Jordan Peele",
+				"releaseYear": 2019,
+				"rating": 6.9,
+				"poster": "https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg",
+				"trailer": "https://example.com/us_trailer.mp4",
+				"upperslide": "https://images.squarespace-cdn.com/content/v1/5e387eca8235c42f2e4dbe6c/1600044463913-LC4HZACZWIM04ARD038S/image-asset.png",
+				"description": "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them."
+			},
+			{
+				"title": "The Invisible Man",
+				"director": "Leigh Whannell",
+				"releaseYear": 2020,
+				"rating": 7.1,
+				"poster": "https://m.media-amazon.com/images/M/MV5BYzc0OGI3NzctNDljYS00MjFiLWIzNjktNjY5MTYwYWRiYWUwXkEyXkFqcGdeQXVyNTU5Mzk0NjE@._V1_FMjpg_UX1000_.jpg",
+				"trailer": "https://example.com/the_invisible_man_trailer.mp4",
+				"upperslide": "https://miro.medium.com/v2/resize:fit:1400/1*bIylx1QNgSpjIfxqyxxc2Q.jpeg",
+				"description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of eerie coincidences turns lethal, Cecilia works to prove that she is being hunted by someone nobody can see."
+			}
+		],
+		"animation": [
+			{
+				"title": "Coco",
+				"director": "Lee Unkrich",
+				"releaseYear": 2017,
+				"rating": 8.4,
+				"poster": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
+				"trailer": "https://example.com/coco_trailer.mp4",
+				"upperslide": "https://images6.alphacoders.com/119/thumb-1920-1190161.jpg",
+				"description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+			},
+			{
+				"title": "Frozen II",
+				"director": "Chris Buck, Jennifer Lee",
+				"releaseYear": 2019,
+				"rating": 6.9,
+				"poster": "https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg?region=0%2C0%2C540%2C810",
+				"trailer": "https://example.com/frozen_2_trailer.mp4",
+				"upperslide": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/152142E50E3D7FF44065AC6FBF5C6478C844C075E0118351D19F90285FEA6C55/scale?width=1200&aspectRatio=1.78&format=webp",
+				"description": "Elsa, Anna, Kristoff, and Olaf embark on a journey to discover the origin of Elsa's powers and save their kingdom."
+			},
+			{
+				"title": "Toy Story 4",
+				"director": "Josh Cooley",
+				"releaseYear": 2019,
+				"rating": 7.7,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_.jpg",
+				"trailer": "https://example.com/toy_story_4_trailer.mp4",
+				"upperslide": "https://reporter.lcms.org/wp-content/uploads/2019/07/Toy-Story-4.jpg",
+				"description": "Woody, Buzz Lightyear, and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky."
+			},
+			{
+				"title": "How to Train Your Dragon: The Hidden World",
+				"director": "Dean DeBlois",
+				"releaseYear": 2019,
+				"rating": 7.5,
+				"poster": "https://images.moviesanywhere.com/e12907791a1cddc808d3e879111e6670/9bf7e81c-9f73-45a1-96fb-0129a799e2c0.jpg",
+				"trailer": "https://example.com/how_to_train_your_dragon_3_trailer.mp4",
+				"upperslide": "https://movies.universalpictures.com/media/dragons-unipics-banner-1080x745-2-5c9291f8ef941-1.jpg",
+				"description": "Hiccup and Toothless discover a hidden dragon utopia known as the Hidden World, while facing a dark threat that puts their friendship to the test."
+			},
+			{
+				"title": "The Lion King",
+				"director": "Jon Favreau",
+				"releaseYear": 2019,
+				"rating": 6.9,
+				"poster": "https://lumiere-a.akamaihd.net/v1/images/p_thelionking_19752_1_0b9de87b.jpeg",
+				"trailer": "https://example.com/the_lion_king_2019_trailer.mp4",
+				"upperslide": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D3429E72F594CA84B8448FE5F8BDE1773505217A9541297CB1E85719EC8D686C/scale?width=1200&aspectRatio=1.78&format=webp",
+				"description": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa."
+			}
+		],
+		"romance": [
+			{
+				"title": "After",
+				"director": "Jenny Gage",
+				"releaseYear": 2016,
+				"rating": 8.0,
+				"poster": "https://resizing.flixster.com/9ODoVhjL-2PIHUYBJNjve-_ZoUw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzY5NDI2ODEzLWNkYjAtNGM1YS04NDU0LTM0MzE4NDhmZGNiMS53ZWJw",
+				"trailer": "https://example.com/la_la_land_trailer.mp4",
+				"upperslide": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZFLjq0J0qo1mYyfIeBEYB4wdtugxadaRwyyz7POE8qQdEgcxGd2WALXJ2vclfPJ7b_9ZtAEaQL9-pBjK1Y-JP9ZE0wU4jxzlsl6.jpg?r=e3f",
+				"description": "A young woman falls for a guy with a dark secret and the two embark on a rocky relationship. Based on the novel by Anna Todd.A young woman falls for a guy."
+			},
+			{
+				"title": "A Star Is Born",
+				"director": "Bradley Cooper",
+				"releaseYear": 2018,
+				"rating": 7.7,
+				"poster": "https://m.media-amazon.com/images/M/MV5BNmE5ZmE3OGItNTdlNC00YmMxLWEzNjctYzAwOGQ5ODg0OTI0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+				"trailer": "https://example.com/a_star_is_born_trailer.mp4",
+				"upperslide": "https://images.cdn.prd.api.discomax.com/2024/02/16/91263b9f-d933-3983-bbea-308384d6a40e.jpeg?f=jpg&q=75&w=1280&w=1200",
+				"description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral."
+			},
+			{
+				"title": "Forever My Girl",
+				"director": "Bethany Ashton Wolf",
+				"releaseYear": 2018,
+				"rating": 7.9,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMjAwNTA5NTYyNl5BMl5BanBnXkFtZTgwMDIzMzA2MzI@._V1_.jpg",
+				"trailer": "https://example.com/call_me_by_your_name_trailer.mp4",
+				"upperslide": "https://www.tvguide.com/a/img/resize/4b913627d25510eeb353c9ef0445f1a44de1f0b2/catalog/provider/1/2/1-5851721292.jpg?auto=webp&fit=crop&height=675&width=1200",
+				"description": " It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)"
+			},
+			{
+				"title": "To All the Boys I've Loved Before",
+				"director": "Susan Johnson",
+				"releaseYear": 2018,
+				"rating": 7.1,
+				"poster": "https://m.media-amazon.com/images/M/MV5BZjMwNDQ4NzMtOThmZi00NmMyLThkMWItMTA3MTg2YjdiZDRmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+				"trailer": "https://example.com/to_all_the_boys_ive_loved_before_trailer.mp4",
+				"upperslide": "https://assets.teenvogue.com/photos/5b80110f591aa363604e40bb/16:9/w_2560%2Cc_limit/TATB-CoveySisters-Condor-Parrish-Cathcart_002.jpeg",
+				"description": "A teenage girl's secret love letters are exposed and wreak havoc on her love life."
+			},
+			{
+				"title": "Yesterday",
+				"director": "Danny Boyle",
+				"releaseYear": 2019,
+				"rating": 6.8,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMjQ0NTI0NjkyN15BMl5BanBnXkFtZTgwNzY0MTE0NzM@._V1_.jpg",
+				"trailer": "https://example.com/yesterday_trailer.mp4",
+				"upperslide": "https://movies.universalpictures.com/media/02-ysd-dm-mobile-banner-1080x745-rr-f01-021119-5c63549ee1cd8-1.jpg",
+				"description": "A struggling musician realizes he's the only person on Earth who can remember The Beatles after waking up in an alternate timeline where they never existed."
+			}
+		],
+		"thriller": [
+			{
+				"title": "Gone Girl",
+				"director": "David Fincher",
+				"releaseYear": 2014,
+				"rating": 8.1,
+				"poster": "https://media.themoviedb.org/t/p/w500/lv5xShBIDPe7m4ufdlV0IAc7Avk.jpg",
+				"trailer": "https://example.com/gone_girl_trailer.mp4",
+				"upperslide": "https://i.ytimg.com/vi/cKYibT5J87w/maxresdefault.jpg",
+				"description": "On his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. As the police investigate and media frenzy ensues, secrets unravel and the truth becomes increasingly difficult to discern."
+			},
+			{
+				"title": "Wind River",
+				"director": "Taylor Sheridan",
+				"releaseYear": 2017,
+				"rating": 7.7,
+				"poster": "https://m.media-amazon.com/images/I/91VKfk-ZAPL._AC_UF894,1000_QL80_.jpg",
+				"trailer": "https://example.com/wind_river_trailer.mp4",
+				"upperslide": "https://q9c3t4p4.rocketcdn.me/wp-content/uploads/2021/09/Wind-River-Cast-2017-Movie.jpg",
+				"description": "A veteran tracker helps an FBI agent investigate the murder of a young Native American woman on a remote reservation in Wyoming."
+			},
+			{
+				"title": "Split",
+				"director": "M. Night Shyamalan",
+				"releaseYear": 2016,
+				"rating": 7.3,
+				"poster": "https://m.media-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg",
+				"trailer": "https://example.com/split_trailer.mp4",
+				"upperslide": "https://static1.srcdn.com/wordpress/wp-content/uploads/2017/01/split-movie-james-mcavoy-ending.jpg",
+				"description": "Three girls are kidnapped by a man diagnosed with 23 distinct personalities. They must try to escape before the emergence of a frightening new persona known as The Beast."
+			},
+			{
+				"title": "The Girl with the Dragon Tattoo",
+				"director": "David Fincher",
+				"releaseYear": 2011,
+				"rating": 7.8,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+				"trailer": "https://example.com/the_girl_with_the_dragon_tattoo_trailer.mp4",
+				"upperslide": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/07/Dragon-Tattoo-Millennium-movies.jpeg",
+				"description": "A journalist is aided by a young female hacker in his search for the truth behind the disappearance of a wealthy industrialist's niece."
+			},
+			{
+				"title": "Prisoners",
+				"director": "Denis Villeneuve",
+				"releaseYear": 2013,
+				"rating": 8.1,
+				"poster": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",
+				"trailer": "https://example.com/prisoners_trailer.mp4",
+				"upperslide": "https://facts.net/wp-content/uploads/2023/06/46-facts-about-the-movie-prisoners-1687507921.jpg",
+				"description": "When his daughter and her friend go missing, a desperate father takes matters into his own hands as the police pursue multiple leads and the pressure mounts."
+			}
+		]
+	}
 }
